@@ -48,18 +48,12 @@ portable.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__python} setup.py \
-	build -b build-2 \
-	install \
-	--optimize=2 \
+%py_install \
 	--root $RPM_BUILD_ROOT
 
 chmod 0755 $RPM_BUILD_ROOT%{py_sitedir}/setproctitle.so
 
-%{__python3} setup.py \
-	build -b build-3 \
-	install \
-	--optimize=2 \
+%py3_install \
 	--root $RPM_BUILD_ROOT
 
 chmod 0755 $RPM_BUILD_ROOT%{py3_sitedir}/setproctitle*.so
