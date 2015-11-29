@@ -5,6 +5,7 @@ Release:	4
 License:	BSD
 Group:		Development/Languages/Python
 URL:		http://pypi.python.org/pypi/setproctitle
+BuildRequires:	rpmbuild(macros) >= 1.710
 Source0:	http://pypi.python.org/packages/source/s/setproctitle/setproctitle-%{version}.tar.gz
 # Source0-md5:	728f4c8c6031bbe56083a48594027edd
 BuildRequires:	python-devel
