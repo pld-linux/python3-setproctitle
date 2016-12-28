@@ -1,7 +1,7 @@
 Summary:	Python module to customize a process title
 Name:		python-setproctitle
 Version:	1.1.8
-Release:	4
+Release:	5
 License:	BSD
 Group:		Development/Languages/Python
 URL:		http://pypi.python.org/pypi/setproctitle
