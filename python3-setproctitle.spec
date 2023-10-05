@@ -1,13 +1,13 @@
 Summary:	Python module to customize a process title
 Name:		python3-setproctitle
-Version:	1.3.2
+Version:	1.3.3
 Release:	1
 License:	BSD
 Group:		Development/Languages/Python
 URL:		http://pypi.python.org/pypi/setproctitle
 BuildRequires:	rpmbuild(macros) >= 1.710
 Source0:	https://pypi.debian.net/setproctitle/setproctitle-%{version}.tar.gz
-# Source0-md5:	fa9771540422a59a8dee1331ad6fd3a9
+# Source0-md5:	1c042d6717212de791c4f9b63e7b544e
 BuildRequires:	python3-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
